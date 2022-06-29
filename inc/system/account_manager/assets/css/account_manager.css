@@ -1,0 +1,42 @@
+.widget-box-add-account{
+	max-width: 600px;
+	margin: 15px auto;
+	padding: 15px;
+}
+
+.widget-box-add-account .note{
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid #f4f4f4;
+}
+
+.widget-box-add-account .headline{
+	margin-bottom: 10px;
+}
+
+.widget-box-add-account .headline .title{ 
+	margin-bottom: 10px;
+}
+
+.widget-box-add-account .input-group .i-checkbox > input{
+	position: inherit;
+}
+
+.widget-box-add-account .input-group .i-checkbox > span{
+    top: 3px;
+    left: -1px;
+}
+
+@media (max-width: 1366px){
+	.account-manager .column-two .col-md-3{
+	    flex: 0 0 33.3333333333%;
+	    max-width: 33.3333333333%;
+	}
+}
+
+@media (max-width: 768px){
+	.account-manager .column-two .col-md-3{
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+}

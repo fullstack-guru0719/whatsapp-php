@@ -1,0 +1,19 @@
+<?php
+$lang["Success"] = "Success";
+$lang["Module & Themes"] = "Module & Themes";
+$lang["This modules or themes is already installed"] = "This modules or themes is already installed";
+$lang["There is a problem on your request. Please make sure your server enabled enough permission to can install."] = "There is a problem on your request. Please make sure your server enabled enough permission to can install.";
+$lang["There was a problem during installation"] = "There was a problem during installation";
+$lang["Please enable zip extension on your server to can install"] = "Please enable zip extension on your server to can install";
+$lang["Can't read input"] = "Can't read input";
+$lang["Can't write to target"] = "Can't write to target";
+$lang["This products does not exist"] = "This products does not exist";
+$lang["Install modules & themes"] = "Install modules & themes";
+$lang["Note"] = "Note";
+$lang["Just can install modules or themes"] = "Just can install modules or themes";
+$lang["Cannot use for reinstall main script"] = "Cannot use for reinstall main script";
+$lang["Make sure your server does not block the permissions to install"] = "Make sure your server does not block the permissions to install";
+$lang["Close"] = "Close";
+$lang["Submit"] = "Submit";
+$lang["Search"] = "Search";
+$lang["Install"] = "Install";

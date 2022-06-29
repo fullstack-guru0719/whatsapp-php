@@ -1,0 +1,1 @@
+<a href="<?php _e( $url );?>" class="btn btn-social btn-block text-left"><i class="<?php _e( $module_icon )?>" style="color: <?php _e( $module_color )?>"></i> <?php _e($text)?></a>

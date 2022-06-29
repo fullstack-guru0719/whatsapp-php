@@ -1,0 +1,22 @@
+<?php
+$lang["Success"] = "Success";
+$lang["Faqs manager"] = "Faqs manager";
+$lang["FAQs"] = "FAQs";
+$lang["Please select an item to delete"] = "Please select an item to delete";
+$lang["This title already exists"] = "This title already exists";
+$lang["Position"] = "Position";
+$lang["Title"] = "Title";
+$lang["Content"] = "Content";
+$lang["Search"] = "Search";
+$lang["Export"] = "Export";
+$lang["Add new"] = "Add new";
+$lang["Update"] = "Update";
+$lang["Submit"] = "Submit";
+$lang["Enable"] = "Enable";
+$lang["Disable"] = "Disable";
+$lang["Header"] = "Header";
+$lang["Footer"] = "Footer";
+$lang["Status"] = "Status";
+$lang["Back"] = "Back";
+$lang["Delete"] = "Delete";
+$lang["Add new"] = "Add new";

@@ -1,0 +1,38 @@
+.package-manager .card-header .nav-tabs{
+	border-bottom: none;
+}
+
+.package-manager .card-header .nav-tabs > li > a{
+	color: #74788d;
+	padding: 0 15px;
+    height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	font-weight: 500;
+}
+
+.package-manager .card-header .nav-tabs > li > a.active{
+	color: #5578eb;
+	border-bottom: 2px solid #5578eb;
+}
+
+.package-manager .tab-content .card-header .nav-tabs{
+	padding: 10px 10px 0;
+}
+
+.package-manager .tab-content .card-header .nav-tabs > li > a{
+	color: #74788d;
+	padding: 0 10px;
+	height: auto;
+	line-height: 30px;
+	display: inline-block;
+	font-weight: 500;
+	margin-bottom: 10px;
+	border: 1px solid transparent;
+}
+
+.package-manager .tab-content .card-header .nav-tabs > li > a.active{
+	color: #5578eb;
+	border: 1px solid #5578eb;
+	border-radius: 100px;
+}

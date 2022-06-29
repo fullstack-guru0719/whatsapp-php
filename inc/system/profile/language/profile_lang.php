@@ -1,0 +1,23 @@
+<?php
+$lang["Success"] = "Success";
+$lang["Unscuccessfull"] = "Unscuccessfull";
+$lang["Search"] = "Search";
+$lang["Profile"] = "Profile";
+$lang["Account"] = "Account";
+$lang["Change password"] = "Change password";
+$lang["Package"] = "Package";
+$lang["Current password"] = "Current password";
+$lang["New password"] = "New password";
+$lang["Confirm new password"] = "Confirm new password";
+$lang["Save"] = "Save";
+$lang["Fullname"] = "Fullname";
+$lang["Email"] = "Email";
+$lang["Timezone"] = "Timezone";
+$lang["Your package"] = "Your package";
+$lang["Expire Date"] = "Expire Date";
+$lang["Cancel automatic payments"] = "Cancel automatic payments";
+$lang["Renew account"] = "Renew account";
+$lang["Are you sure?"] = "Are you sure?";
+$lang["Hi, %s"] = "Hi, %s";
+$lang["Logout"] = "Logout";
+$lang["Back to admin"] = "Back to admin";

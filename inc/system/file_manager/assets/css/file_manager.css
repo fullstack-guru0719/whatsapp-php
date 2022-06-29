@@ -1,0 +1,389 @@
+.file-manager .fm-progress-bar{
+    height: 3px;
+    background-color: #5d78ff;
+    position: absolute;
+    top: 0;
+    margin-left: -25px;
+    transition: all 0.25s;
+    width: 0;
+}
+
+.file-manager .fm-sb-title{
+	font-size: 16px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+.file-manager .fm-storage{
+
+}
+
+.file-manager .fm-storage .fm-storage-size{
+
+}
+
+.file-manager .fm-storage .fm-storage-size .used{
+	font-size: 15px;
+    font-weight: 500;
+    color: #5d78ff;
+    display: inline-block;
+}
+.file-manager .fm-storage .fm-storage-size .total{
+	float: right;
+	font-size: 15px;
+    font-weight: 500;
+	display: inline-block;
+}
+
+.file-manager .fm-storage .progress{
+	margin-bottom: 15px;
+	height: 5px;
+	opacity: 0.7;
+}
+
+.file-manager .fm-storage .fm-storage-list{
+
+}
+
+.file-manager .fm-storage .fm-storage-list .fm-storage-item{
+	position: relative;
+	height: 45px;
+	margin-bottom: 15px;
+}
+
+.file-manager .fm-storage .fm-storage-list .fm-storage-item .icon{
+	width: 45px;
+	height: 100%;
+	font-size: 20px;
+	border-radius: 6px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.file-manager .fm-storage .fm-storage-list .fm-storage-item .info{
+	margin-left: 55px;
+	margin-right: 65px;
+	padding-top: 5px;
+	height: 100%;
+}
+
+.file-manager .fm-storage .fm-storage-list .fm-storage-item .info .name{
+	font-weight: 450;
+	font-size: 13px;
+}
+
+.file-manager .fm-storage .fm-storage-list .fm-storage-item .info .desc{
+	font-weight: 300;
+	font-size: 10px;
+}
+
+.file-manager .fm-storage .fm-storage-list .fm-storage-item .number{
+	width: 60px;
+	line-height: 45px;
+	text-align: right;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+    font-weight: 500;
+    color: #5d78ff;
+}
+
+.file-manager .fm-loading{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 100px;
+	text-align: center;
+}
+
+.file-manager .column-two{
+    padding: 18px;
+}
+
+.file-manager .fm-content{
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	position: relative;
+}
+
+.file-manager .fm-content .fm-item{
+	width: calc(100%);
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.file-manager .fm-content .fm-item .fm-box{
+	margin: 7px;
+    position: relative;
+    overflow: hidden;
+	border-radius: 4px;
+	border: 1px solid #f4f4f4;
+	transition: all .2s;
+}
+
+.file-manager .fm-content .fm-item.active .fm-box{
+	border: 10px solid #5d78ff1a!important;
+}
+
+.file-manager .fm-content .fm-item .fm-media{
+	width: calc(100%);
+    height: calc(100%);
+    border-radius: 4px;
+    position: absolute;
+    background-size: cover;
+	background-position: center;
+    transition: transform .2s;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.file-manager .fm-content .fm-item .fm-media img{
+	margin: auto;
+}
+
+.file-manager .fm-content .fm-item:hover .fm-box{
+	border: 1px solid #5d78ff1a;
+}
+
+.file-manager .fm-content .fm-item:hover .fm-media{
+	transform: scale(1.2);
+}
+
+.file-manager .fm-content .fm-item .fm-video{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    z-index: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-image: url(../img/loading.gif);
+    background-repeat: no-repeat;
+}
+
+.file-manager .fm-content .fm-item .fm-video-icon{
+    position: absolute;
+    z-index: 10;
+    font-size: 4em;
+    width: 100%;
+    color: #fff;
+}
+
+.file-manager .fm-content .fm-item .fm-option .fm-select{
+    position: absolute;
+    z-index: 10;
+    left: 15px;
+    top: 12px;
+    transform: scale(1.3);
+}
+
+.file-manager .fm-content .fm-item .fm-option .fm-select .i-checkbox.i-checkbox--tick > span{
+	border: 1px solid #ffffff!important;
+}
+
+.file-manager .fm-content .fm-item .fm-option .fm-select .i-checkbox.i-checkbox--brand.i-checkbox--tick > input:checked ~ span{
+	border: 1px solid #ffffff!important;
+}
+
+.file-manager .fm-content .fm-item .fm-option .fm-edit{
+    position: absolute;
+    z-index: 10;
+    left: 11px;
+    bottom: 11px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}
+
+.file-manager .fm-content .fm-item .fm-overplay{
+	width: 100%;
+	
+}
+
+.file-manager .fm-content .fm-item .fm-overplay img{
+	width: 100%;
+}
+
+.file-manager .fm-loading-more{
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+.file-manager .fm-select-all .uncheck{
+	display: none;
+}
+
+.file-manager .fm-select-all .check{
+	display: block;
+}
+
+.file-manager .fm-select-all.checked .uncheck{
+	display: block;
+}
+
+.file-manager .fm-select-all.checked .check{
+	display: none;
+}
+
+.file-manager .fm-select-all.checked{
+	color: #ffffff!important;
+	background-color: #5d78ff!important;
+}
+
+.file-manager-modal .modal-dialog{
+	max-width: 1024px;
+}
+
+.file-manager-modal .modal-body{
+	max-height: 600px;
+    min-height: 360px;
+	overflow: auto;
+}
+
+/*wiget*/
+.file-manager .fm-wiget{
+	margin: 0 0 15px 0;
+}
+
+.file-manager .fm-wiget .fm-files{
+	background-color: #fbfbfb;
+    min-height: 90px;
+	border-left: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	border-top: 1px solid #f4f4f4;
+	border-radius: 4px 4px 0 0;
+	padding: 10px;
+}
+
+.file-manager .fm-wiget .fm-files.sortable{
+    cursor: move;
+}
+
+.file-manager .fm-wiget .fm-files .fm-item{
+    margin-right: 8px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+    height: 69px;
+    width: 69px;
+    border-radius: 6px;
+    border: 1px solid #ebebeb;
+}
+
+.file-manager .fm-wiget .fm-files .fm-item img{
+	width: 100%;
+	height: 100%;
+}
+
+.file-manager .fm-wiget .fm-files .fm-item .fm-video{
+	height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    z-index: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+
+.file-manager .fm-wiget .fm-files .fm-item .fm-video-icon{
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 69px;
+    height: 100%;
+}
+
+.file-manager .fm-wiget .fm-files .fm-item .btn-close{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    z-index: 10;
+    font-size: 17px;
+    color: #fd397a;
+    -webkit-transition: all .5s,opacity .5s,-webkit-transform .5s;
+    -o-transition: all .5s,opacity .5s,-o-transform .5s;
+    transition: all .5s,opacity .5s,transform .5s;
+}
+
+.file-manager .fm-wiget .fm-files .fm-item .btn-close:hover{
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.file-manager .fm-wiget .fm-toolbar{
+	border-left: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	border-top: 1px solid #f4f4f4;
+	border-radius: 0 0 4px 4px;
+}
+
+.file-manager .fm-wiget .fm-toolbar .btn{
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: 1px solid #f4f4f4;
+	border-radius: 0!important;
+}
+
+.file-manager .fm-wiget .fm-toolbar .btn:hover{
+	background-color: #5d78ff;
+}
+
+.fancybox-slide--iframe{
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+	.file-manager-modal .modal-body{
+		height: 500px;
+        overflow: auto;
+	}
+
+    .file-manager.subheader{
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .file-manager.subheader .title{
+        width: auto;
+    }
+}
